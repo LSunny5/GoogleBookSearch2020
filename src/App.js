@@ -8,7 +8,7 @@ function App() {
   return (
     <main className='App'>
       <Header />
-
+      <Search />
 
     </main>
   );
