@@ -1,0 +1,10 @@
+.header {
+    background: black;
+    height: 8em;
+    display: flex;
+}
+
+h1 {
+    color: white;
+    margin: auto;
+}
