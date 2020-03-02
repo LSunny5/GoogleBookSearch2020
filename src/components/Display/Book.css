@@ -1,0 +1,15 @@
+.book {
+    width:100%;
+    height: 10em;
+    padding: 20px;
+}
+
+
+.bookTitle {
+    font-size: 30px;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+}

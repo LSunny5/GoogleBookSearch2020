@@ -1,8 +1,14 @@
 import React from 'react';
 import './Display.css';
+import Book from './Book';
 
-
-class Display extends React.Component {
+function Display() {
+    return (
+        <div className = "bookDisplay">
+           {/*<p id="errorMessage">{this.state.error}</p> */} 
+            <Book />
+        </div>
+    )
 }
 
 
