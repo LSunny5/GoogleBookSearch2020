@@ -3,3 +3,8 @@
     flex-direction: column;
     
 }
+
+.bookList {
+    list-style: none;
+    padding: 5px;
+}
