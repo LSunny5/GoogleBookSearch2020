@@ -33,7 +33,7 @@ class Book extends React.Component {
             if (!bookPrice) {
                 return 'Free'
             }
-            return `${bookPrice} ${currency}`;
+            return `$${bookPrice} ${currency}`;
         }
 
         return (
@@ -54,7 +54,7 @@ class Book extends React.Component {
                     </a>
                     <div className="bookDesc">
                         <p className="bookAuthor">Author: {author}</p>
-                        <p className="bookPrice">Price: ${price}</p>
+                        <p className="bookPrice">Price: {price}</p>
                         <br />
                         <p className="bookDescripton">{oneBook.volumeInfo.description}</p>
                         <br />
