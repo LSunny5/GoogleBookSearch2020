@@ -3,7 +3,6 @@ import './Display.css';
 import Book from './Book';
 
 class Display extends React.Component {
-
     render() {
         const {results} = this.props;
         let bookResults = [];
