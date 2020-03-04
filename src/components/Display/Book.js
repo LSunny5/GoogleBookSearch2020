@@ -31,7 +31,7 @@ class Book extends React.Component {
             let currency = oneBook.saleInfo.retailPrice && oneBook.saleInfo.retailPrice.currencyCode;
 
             if (!bookPrice) {
-                return 'Free'
+                return 'Free' 
             }
             return `$${bookPrice} ${currency}`;
         }
